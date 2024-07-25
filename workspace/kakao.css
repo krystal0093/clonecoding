@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+header{
+  background-color: white;
+  height: 60px;
+  padding: 15px 0;
+}
+
+nav{
+  /* border: 3px solid red; */
+  width: 1350px;
+  height: 60px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+
+#logo-img{
+  transform: scale(0.3);
+  margin-left: auto;
+  width: 20px;
+}
+
+#dropdown-container{
+  display: flex;
+  width: 1000px;
+  margin-left: 300px;
+}
+
+.dropdown{
+  position: relative;
+  margin: 10px;
+}
+
+.dropdown-menu{
+  cursor:pointer;
+  padding: 15px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: black;
+  border-radius: 35px;
+}
+
+
+.dropdown-content ul{
+  /* width: 300px; */
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content ul li{
+  padding: 12px 16px;
+}
+
+.dropdown-content ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content ul li a:hover{
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+  align-items: center;
+  transform: translate(-20px);
+}
+
+/* 수정중
+.dropdown.dropdown--story{
+  align-items: center;
+} */
+
+.dropdown--intro{
+  width: 180px;
+}
+
+.dropdown--story{
+  width: 550px;
+}
+
+.dropdown--service{
+  width: 150px;
+}
+
+.dropdown--promise{
+  width: 370px;
+}
+
+.dropdown--news{
+  width: 200px;
+}
+
+#ir-main{
+  text-decoration: none;
+}
+
+.logo-icon{
+  width: 220px;
+  display: flex;
+  margin-right: auto;
+  transform: scale(0.35);
+}
+
+/* #icon-search{
+
+}
+
+#icon-lang{
+
+}
+
+#icon-color{
+  
+} */
+
+main{
+  background-color: gray;
+  height:3600px;
+}
+
+#div-1{
+  height: 500px;
+  background-color: beige;
+}
+
+#div-2{
+  height: 700px;
+  background-color: salmon;
+}
+
+#div-3{
+  height: 1000px;
+  background-color: yellow;
+}
+
+#div-4{
+  height: 600px;
+  background-color: orange;
+}
+
+#div-5{
+  height: 800px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+footer{
+  background-color: aqua;
+  height: 500px;
+}
