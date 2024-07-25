@@ -9,10 +9,11 @@
 <body>
   <!-- 헤더, 푸터, 6개 구역 -->
   <header>
-    <nav>
+    <nav id="header">
       <!-- <div id="logo-img"><a href="https://www.kakaocorp.com/page/" target="_blank"><img src="./img/kakao_logo.jpg" alt="로고"></a></div> -->
       <div id="logo-img"><a href="http://127.0.0.1:5501/clonecoding/workspace/kakao.html"><img src="./img/kakao_logo.jpg" alt="로고"></a></div>
       <div id="dropdown-container">
+        <!-- 헤더 메뉴 - 소개 -->
         <div class="dropdown">
           <div class="dropdown-menu">소개</div>
           <div class="dropdown-content">
@@ -23,6 +24,7 @@
             </ul>
           </div>
         </div>
+        <!-- 헤더 메뉴 - 이야기 -->
         <div class="dropdown">
           <div class="dropdown-menu">이야기</div>
           <div class="dropdown-content">
@@ -34,6 +36,7 @@
             </ul>
           </div>
         </div>
+        <!-- 헤더 메뉴 - 기술과 서비스 -->
         <div class="dropdown">
           <div class="dropdown-menu">기술과 서비스</div>
           <div class="dropdown-content">
@@ -43,6 +46,7 @@
             </ul>
           </div>
         </div>
+        <!-- 헤더 메뉴 - 약속과 책임 -->
         <div class="dropdown">
           <div class="dropdown-menu">약속과 책임</div>
           <div class="dropdown-content">
@@ -54,6 +58,7 @@
             </ul>
           </div>
         </div>
+        <!-- 헤더 메뉴 - 뉴스 -->
         <div class="dropdown">
           <div class="dropdown-menu">뉴스</div>
           <div class="dropdown-content">
@@ -63,14 +68,16 @@
             </ul>
           </div>
         </div>
+        <!-- 헤더 메뉴 - 투자정보 -->
         <div class="dropdown">
-          <div class="dropdown-menu"><a id="ir-main" href="https://www.kakaocorp.com/ir/main" target="_blank">투자정보<sup>↗</sup></a></div>
+          <div class="dropdown-menu"><a id="ir-main" href="https://www.kakaocorp.com/ir/main" target="_blank">투자정보↗</a></div>
           <div class="dropdown-content">
             <ul class="">
             </ul>
           </div>
         </div>
       </div>
+      <!-- 헤더 메뉴 - 아이콘 -->
       <div class="logo-icon">
         <span id="icon-search">
           <a><img src="./img/menu_icon_search.jpg"></a>
@@ -84,9 +91,25 @@
     </nav>
   </header>
   <main>
+    <!-- 0번 :  모두의 삶 모두의 기술 -->
+    <section>
+      <div id="main-video"><img src="./img/main_video.jpg"></div>
+    </section>
     <!-- 1번 :  카카오와 카카오 그룹이 축적해 온 이야기들 -->
     <section>
-      <div id="div-1">1번</div>
+      <!-- <nav id="main_story"> -->
+        <div id="main-kakaostory">
+          <span id="kstory_icon"><img src="./img/main_kakao.jpg"></span></div>
+          <span id="kstory_button"><img src="./img/main_kakao_button.jpg"></span></div>
+        <div class="story-content">
+          <ul class="story-list">
+            <li><img src="./img/main_kakao_story_1.jpg"></li>
+            <li><img src="./img/main_kakao_story_2.jpg"></li>
+            <li><img src="./img/main_kakao_story_3.jpg"></li>
+            <li><img src="./img/main_kakao_story_4.jpg"></li>
+          </ul>
+        </div>
+      <!-- </nav> -->
     </section>
     <!-- 2번 : 더 나은 세상을 만드는 카카오 서비스 -->
     <section>
