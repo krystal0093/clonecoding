@@ -127,7 +127,7 @@ header{
   
 } */
 
-/* 메인 시작 */
+/* 메인 0번 :  모두의 삶 모두의 기술 시작 */
 main{
   background-color: white;
   height:4100px;
@@ -143,7 +143,7 @@ main{
   margin-left: 100px;
 }
 
-/* main story */
+/* 메인 1번 :  카카오와 카카오 그룹이 축적해 온 이야기들 시작 */
 .main-kakaostory {
   height: 180px;
   width: 1300px;
@@ -160,13 +160,13 @@ main{
   margin-top: 85px;
 }
 
-.main-kakaostory #kstory_icon {
+.main-kakaostory #kstory-icon {
   margin-left: 0;
 }
 
 .main-kakaostory #kstory-text{
   margin-top: 90px;
-  font-size: 40px;
+  font-size: 50px;
   width: 1000px;
   font-weight: 500;
   letter-spacing : -5px;
@@ -198,10 +198,123 @@ main{
   width: 400px;
 }
 
-#div-2{
-  height: 700px;
-  background-color: salmon;
+/* 메인 2번 : 더 나은 세상을 만드는 카카오 서비스 시작 */
+
+.main-kakaoservice{
+  width: 1515px;
+  height: 180px;
+  background-color: white;
+  /* border: 1px solid red; */
+  margin-left: 100px;
+  display: flex;
 }
+
+.main-kakaoservice img{
+  /* border: 1px solid red; */
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 85px;
+}
+
+.main-kakaoservice #service-icon {
+  margin-left: 0;
+}
+
+.main-kakaoservice #service-text{
+  margin-top: 90px;
+  font-size: 50px;
+  width: 1000px;
+  font-weight: 500;
+  letter-spacing : -5px;
+}
+/* 서비스 영역 나누기 */
+.service-section{
+  border: 1px solid red;
+  width: 1300px;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  /* padding: 10px; */
+}
+
+.service-section-left{
+  background-color: white;
+  height: 520px;
+  width: 630px;
+}
+
+.service-section-right{
+  background-color: aliceblue;
+  height: 520px;
+  width: 630px;
+}
+
+/* 서비스 영역 왼쪽 */
+.communication {
+  background-color: #f3f3f3;
+  /* border: 1px solid #f3f3f3; */
+  border-radius: 30px;
+  height: 150px;
+  width: 650px;
+  margin: 10px;
+}
+
+/* .communication li{
+
+} */
+
+.com-container h2 {
+  margin-top: 55px;
+  margin-left: 30px;
+  font-size: 30px;
+  letter-spacing : -4px;
+}
+
+.com-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#com-katalk{
+  height: 60px;
+  margin-left: 370px;
+  margin-top: -50px;
+}
+
+#com-daum{
+  height: 60px;
+  margin-top: -70px;
+}
+
+#com-story{
+  height: 60px;
+  margin-top: -70px;
+}
+
+#com-plus{
+  height: 60px;
+  margin-top: -70px;
+}
+/* 일상 */
+.daily{
+  background-color: #f3f3f3;
+  /* border: 1px solid #f3f3f3; */
+  border-radius: 30px;
+  height: 150px;
+  width: 650px;
+  margin: 10px;
+}
+
+.entertain{
+  background-color: #f3f3f3;
+  /* border: 1px solid #f3f3f3; */
+  border-radius: 30px;
+  height: 150px;
+  width: 650px;
+  margin: 10px;
+}
+/* 서비스 영역 오른쪽 */
 
 #div-3{
   height: 1000px;
