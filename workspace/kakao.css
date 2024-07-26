@@ -59,10 +59,6 @@ header{
   margin: 0;
 }
 
-#dropdown-content ul{
-  display: flex;
-}
-
 .dropdown-content ul li{
   padding: 12px 16px;
 }
@@ -131,6 +127,7 @@ header{
   
 } */
 
+/* 메인 시작 */
 main{
   background-color: white;
   height:4100px;
@@ -141,25 +138,64 @@ main{
 }
 
 #main-video img{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1300px;
   margin-left: 100px;
 }
 
-#main_story {
-  /* height: 500px; */
+/* main story */
+.main-kakaostory {
+  height: 180px;
   width: 1300px;
-  background-color: beige;
-}
-
-.story-content ul{
+  /* background-color: beige; */
+  background-color: white;
+  margin-left: 100px;
   display: flex;
 }
 
-#main-kakaostory img{
-  border: 1px solid red;
-  width: 1000px;
+.main-kakaostory img{
+  /* border: 1px solid red; */
+  width: 80px;
   margin-left: 100px;
+  margin-top: 85px;
+}
+
+.main-kakaostory #kstory_icon {
+  margin-left: 0;
+}
+
+.main-kakaostory #kstory-text{
+  margin-top: 90px;
+  font-size: 40px;
+  width: 1000px;
+  font-weight: 500;
+  letter-spacing : -5px;
+}
+
+.button-content{
+  display: absolute;
+}
+
+.main-kakaostory #kstory_button1 {
+  cursor: pointer;
+  margin-left: 135px;
+}
+
+.main-kakaostory #kstory_button2:hover {
+  display: none;
+}
+
+.story-content{
+  width: 1515px;
+  /* border: 1px solid red; */
+}
+.story-content ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.story-content img{
+  width: 400px;
 }
 
 #div-2{
@@ -170,6 +206,7 @@ main{
 #div-3{
   height: 1000px;
   background-color: yellow;
+
 }
 
 #div-4{
