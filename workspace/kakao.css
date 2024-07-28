@@ -130,7 +130,7 @@ header{
 /* 메인 0번 :  모두의 삶 모두의 기술 시작 */
 main{
   background-color: white;
-  height:4100px;
+  height:7100px;
 }
 
 #main-video{
@@ -221,6 +221,7 @@ main{
 }
 
 .main-kakaoservice #service-text{
+  margin-left: 20px;
   margin-top: 90px;
   font-size: 50px;
   width: 1000px;
@@ -229,9 +230,9 @@ main{
 }
 /* 서비스 영역 나누기 */
 .service-section{
-  border: 1px solid red;
   width: 1300px;
   height: 520px;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   margin-left: 100px;
@@ -245,29 +246,27 @@ main{
 }
 
 .service-section-right{
-  background-color: aliceblue;
+  background-color: white;
   height: 520px;
   width: 630px;
 }
 
 /* 서비스 영역 왼쪽 */
+/* 커뮤니케이션 */
 .communication {
   background-color: #f3f3f3;
-  /* border: 1px solid #f3f3f3; */
+  border: 0.1px solid #f3f3f3;
   border-radius: 30px;
   height: 150px;
-  width: 650px;
+  width: 640px;
   margin: 10px;
 }
 
-/* .communication li{
-
-} */
-
-.com-container h2 {
+.communication h2 {
   margin-top: 55px;
-  margin-left: 30px;
-  font-size: 30px;
+  margin-left: 35px;
+  font-size: 28px;
+  /* font-weight: 500; */
   letter-spacing : -4px;
 }
 
@@ -278,49 +277,465 @@ main{
 
 #com-katalk{
   height: 60px;
-  margin-left: 370px;
+  margin-left: 340px;
   margin-top: -50px;
 }
 
 #com-daum{
   height: 60px;
-  margin-top: -70px;
+  margin-top: -50px;
+  margin-left: 8px;
 }
 
 #com-story{
   height: 60px;
-  margin-top: -70px;
+  margin-top: -50px;
+  margin-left: 8px;
 }
 
 #com-plus{
   height: 60px;
-  margin-top: -70px;
+  margin-top: -50px;
+  margin-left: 8px;
 }
+
 /* 일상 */
 .daily{
   background-color: #f3f3f3;
-  /* border: 1px solid #f3f3f3; */
+  border: 0.1px solid #f3f3f3;
   border-radius: 30px;
   height: 150px;
-  width: 650px;
+  width: 640px;
   margin: 10px;
 }
 
+.daily h2 {
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 28px;
+  letter-spacing : -4px;
+}
+
+.daily-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#daily-map{
+  height: 60px;
+  margin-left: 340px;
+  margin-top: -50px;
+}
+
+#daily-taxi{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+#daily-bank{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+#daily-plus{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+/* 엔터테인먼트 */
 .entertain{
   background-color: #f3f3f3;
-  /* border: 1px solid #f3f3f3; */
+  border: 0.1px solid #f3f3f3;
   border-radius: 30px;
   height: 150px;
-  width: 650px;
+  width: 640px;
   margin: 10px;
 }
-/* 서비스 영역 오른쪽 */
 
-#div-3{
-  height: 1000px;
-  background-color: yellow;
-
+.entertain h2 {
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 28px;
+  letter-spacing : -4px;
 }
+
+.enter-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#enter-page{
+  height: 60px;
+  margin-left: 340px;
+  margin-top: -50px;
+}
+
+#enter-japan{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+#enter-melon{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+#enter-plus{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+/* 서비스 영역 오른쪽 */
+/* 비지니스 */
+.business {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 150px;
+  width: 640px;
+  margin-top: 10px;
+}
+
+.business h2 {
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 28px;
+  letter-spacing : -4px;
+}
+
+.business-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#busi-channel{
+  height: 60px;
+  margin-left: 335px;
+  margin-top: -50px;
+}
+
+#busi-cloud{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+#busi-agit{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+#busi-plus{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+/* 쇼핑 */
+.shopping {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 150px;
+  width: 640px;
+  margin-top: 10px;
+}
+
+.shopping h2 {
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 28px;
+  letter-spacing : -4px;
+}
+
+.shopping-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#shop-present{
+  height: 60px;
+  margin-left: 340px;
+  margin-top: -50px;
+}
+
+#shop-store{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+#shop-zig{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+#shop-plus{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+/* 소셜 */
+.social {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 150px;
+  width: 640px;
+  margin-top: 10px;
+}
+
+.social h2 {
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 28px;
+  letter-spacing : -4px;
+}
+
+.social-list {
+  display: flex;
+  list-style-type: none;
+}
+
+#social-page{
+  height: 60px;
+  margin-left: 475px;
+  margin-top: -50px;
+}
+
+#social-plus{
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 8px;
+}
+
+/* 서비스 전체보기 */
+.service-all{
+  background-color: white;
+  /* border: 1px solid red; */
+  width: 1300px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.s-all-container {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 70px;
+  height: 75px;
+  width: 300px;
+  margin-left: 500px;
+}
+
+.service-all h2 {
+  margin-top: 22px;
+  margin-left: 65px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+#s-all-icon{
+  width: 30px;
+  transform: translate(205px, -28px);
+}
+
+/* 메인 3번 : 오늘의 뉴스  */
+
+.main-news{
+  width: 1300px;
+  height: 760px;
+  background-color: white;
+  /* border: 1px solid blue; */
+  margin-left: 100px;
+  /* display: flex; */
+}
+
+.main-news img{
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+
+#news-icon{
+  margin-left: 0;
+}
+
+.news-header h2{
+  margin-top: -75px;
+  margin-left: 100px;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing : -5px;
+}
+
+/* 뉴스 영역 나누기 */
+.news-section-a{
+  width: 1300px;
+  height: 600px;
+  /* background-color: beige;
+  border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-top: 30px;
+  /* padding: 10px; */
+}
+
+.news-section-a ul{
+  display: flex;
+  list-style-type: none;
+}
+
+#esg {
+  background-color: #f3f3f3;
+  /* border: 1px solid red; */
+  width: 420px;
+  height: 600px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 8px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+#news-press{
+  /* border: 1px solid red; */
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#news-list h2{
+  /* border: 1px solid red; */
+  width: 65px;
+  background-color: white;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-top: -50px;
+  text-align: center;
+  letter-spacing : -2px;
+}
+
+#news-list h5 {
+  /* border: 1px solid red; */
+  width: 120px;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-left: 175px;
+  color: rgb(77, 74, 74);
+  letter-spacing : 0.5px;
+  font-size: 14px;
+}
+
+#news-list h1{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 28px;
+  letter-spacing: -2px;
+}
+
+#news-dot{
+  /* border: 1px solid red; */
+  width: 30px;
+  margin-left: 370px;
+  margin-top: -50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#esg h4{
+  margin-left: 20px;
+  margin-top: 150px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#esg-photo{
+  width: 425px;
+  height: 260px;
+  /* border-radius: 30px; */
+  margin-left: -5px;
+  margin-top: 15px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+/* 오늘의 뉴스 - daum */
+#daum {
+  background-color: #f3f3f3;
+  width: 420px;
+  height: 600px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top: 10px;
+}
+
+#daum h4{
+  margin-left: 20px;
+  margin-top: 150px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+#daum-photo{
+  width: 420px;
+  height: 260px;
+  /* border-radius: 30px; */
+  margin-left: 0px;
+  margin-top: 15px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* 오늘의 뉴스 - opentchat */
+#openchat{
+  background-color: #f3f3f3;
+  width: 420px;
+  height: 600px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 8px;
+  padding-top: 10px;
+}
+
+#openchat h4{
+  margin-left: 20px;
+  margin-top: 110px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #div-4{
   height: 600px;
