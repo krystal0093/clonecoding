@@ -553,7 +553,7 @@ main{
 
 .main-news{
   width: 1300px;
-  height: 760px;
+  height: 720px;
   background-color: white;
   /* border: 1px solid blue; */
   margin-left: 100px;
@@ -726,29 +726,216 @@ main{
   font-weight: 400;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#div-4{
-  height: 600px;
-  background-color: orange;
+/* 뉴스 밑 영역 나누기 */
+.news-section-b{
+  width: 1300px;
+  height: 450px;
+  background-color: white;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-top: 30px;
+  /* padding: 10px; */
 }
 
+.news-section-left {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 170px;
+  width: 640px;
+  margin: 10px;
+}
+
+.news-section-right{
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 170px;
+  width: 640px;
+  margin-top: 10px;
+}
+
+#news-press{
+  /* border: 1px solid red; */
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* 뉴스 밑 영역 왼쪽 */
+.news-section-left h2{
+  /* border: 1px solid red; */
+  width: 65px;
+  background-color: white;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-top: -50px;
+  text-align: center;
+  letter-spacing : -2px;
+}
+
+.news-section-left h5 {
+  /* border: 1px solid red; */
+  width: 120px;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-left: 175px;
+  color: rgb(77, 74, 74);
+  letter-spacing : 0.5px;
+  font-size: 14px;
+}
+
+.news-section-left h1{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 25px;
+  letter-spacing: -2px;
+  font-weight: 400;
+}
+
+#news-dot{
+  /* border: 1px solid red; */
+  width: 30px;
+  margin-left: 590px;
+  margin-top: -50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* 뉴스 밑 영역 오른쪽 */
+
+#news-press{
+  /* border: 1px solid red; */
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.news-section-right h2{
+  /* border: 1px solid red; */
+  width: 65px;
+  background-color: white;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-top: -50px;
+  text-align: center;
+  letter-spacing : -2px;
+}
+
+.news-section-right h5 {
+  /* border: 1px solid red; */
+  width: 120px;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-left: 175px;
+  color: rgb(77, 74, 74);
+  letter-spacing : 0.5px;
+  font-size: 14px;
+}
+
+.news-section-right h1{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 25px;
+  letter-spacing: -2px;
+  font-weight: 400;
+}
+
+/* 메인 4번 : 약속과 책임 */
+
+.main-promise{
+  width: 1300px;
+  height: 720px;
+  background-color: white;
+  /* border: 1px solid blue; */
+  margin-left: 100px;
+  /* display: flex; */
+}
+
+.main-promise img{
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+
+#promise-icon{
+  margin-left: 0;
+}
+
+.promise-header h2{
+  margin-top: -75px;
+  margin-left: 100px;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing : -5px;
+}
+
+.promise-section{
+  width: 1300px;
+  height: 600px;
+  background-color: white;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-top: 30px;
+  /* padding: 10px; */
+}
+
+.promise-section ul{
+  display: flex;
+  list-style-type: none;
+}
+
+#p-esg-photo{
+  width: 430px;
+  height: 600px;
+  margin-left: 0px;
+}
+
+#green-photo{
+  width: 430px;
+  height: 600px;
+  margin-left: 7px;
+}
+
+#magazine-photo{
+  width: 430px;
+  height: 600px;
+  margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #div-5{
-  height: 800px;
+  height: 500px;
   background-color: red;
   border: 1px solid black;
 }
 
 footer{
   background-color: aqua;
-  height: 500px;
+  height: 400px;
 }
