@@ -106,6 +106,7 @@ header{
 
 #ir-main{
   text-decoration: none;
+  color: black;
 }
 
 .logo-icon{
@@ -527,17 +528,22 @@ main{
   margin-left: 100px;
 }
 
+.service-all a{
+  text-decoration: none;
+  color: black;
+}
+
 .s-all-container {
   background-color: #f3f3f3;
   border: 0.1px solid #f3f3f3;
   border-radius: 70px;
-  height: 75px;
+  height: 70px;
   width: 300px;
   margin-left: 500px;
 }
 
 .service-all h2 {
-  margin-top: 22px;
+  margin-top: 20px;
   margin-left: 65px;
   font-size: 22px;
   font-weight: 500;
@@ -594,6 +600,11 @@ main{
 .news-section-a ul{
   display: flex;
   list-style-type: none;
+}
+
+.news-section-a a{
+  text-decoration: none;
+  color: black;
 }
 
 #esg {
@@ -729,9 +740,9 @@ main{
 /* 뉴스 밑 영역 나누기 */
 .news-section-b{
   width: 1300px;
-  height: 450px;
+  height: 190px;
   background-color: white;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   margin-left: 100px;
@@ -798,6 +809,11 @@ main{
   font-weight: 400;
 }
 
+.news-section-b a{
+  text-decoration: none;
+  color: black;
+}
+
 #news-dot{
   /* border: 1px solid red; */
   width: 30px;
@@ -848,6 +864,123 @@ main{
   letter-spacing: -2px;
   font-weight: 400;
 }
+/* 뉴스 전체보기 */
+/* 뉴스 영역 나누기 */
+.news-plus{
+  width: 1300px;
+  height: 200px;
+  background-color: white;
+  /* border: 1px solid red; */
+  margin-left: 100px;
+  margin-top: 0px;
+  /* padding: 10px; */
+}
+
+.news-plus a{
+  text-decoration: none;
+  color: black;
+}
+
+.news-all ul{
+  display: flex;
+  list-style-type: none;
+}
+
+/* 뉴스 전체뉴스 */
+
+.news-allview {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 25px;
+  height: 100px;
+  width: 420px;
+  margin-left: 10px;
+}
+
+.news-allview h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.news-allview h4 {
+  margin-top: -22px;
+  margin-left: 300px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#n-all-icon{
+  width: 30px;
+  transform: translate(365px, -25px);
+}
+
+/* 뉴스 보도자료 */
+.news-pressview {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 25px;
+  height: 100px;
+  width: 420px;
+  margin-left: 11px;
+}
+
+.news-pressview h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.news-pressview h4 {
+  margin-top: -22px;
+  margin-left: 300px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#p-all-icon{
+  width: 30px;
+  transform: translate(365px, -25px);
+}
+
+/* 뉴스 참고자료 */
+
+.news-resource {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 25px;
+  height: 100px;
+  width: 420px;
+  margin-left: 11px;
+}
+
+.news-resource h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.news-resource h4 {
+  margin-top: -22px;
+  margin-left: 300px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#r-all-icon{
+  width: 30px;
+  transform: translate(365px, -25px);
+}
+
 
 /* 메인 4번 : 약속과 책임 */
 
@@ -913,27 +1046,296 @@ main{
   margin-left: 7px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#div-5{
-  height: 500px;
-  background-color: red;
-  border: 1px solid black;
+/* 메인 5번 무엇을 도와드릴까요? */
+.main-help{
+  width: 1300px;
+  height: 600px;
+  background-color: white;
+  /* border: 1px solid blue; */
+  margin-top: 80px;
+  margin-left: 100px;
+  /* display: flex; */
 }
+
+.main-help img{
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+
+#help-icon{
+  margin-left: 0;
+}
+
+.help-header h2{
+  margin-top: -75px;
+  margin-left: 100px;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing : -5px;
+}
+
+/* 5번 도움 영역 나누기 */
+.help-section{
+  width: 1300px;
+  height: 520px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.help-section-a{
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 520px;
+  width: 430px;
+}
+
+.main-help a{
+  text-decoration: none;
+  color: black;
+}
+
+/* 카카오 고객센터 */
+
+.help-kakao {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 150px;
+  width: 425px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.help-kakao h2 {
+  margin-top: 40px;
+  margin-left: 35px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.help-kakao h4 {
+  margin-top: 20px;
+  margin-left: 35px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#h-kakao-icon{
+  width: 30px;
+  transform: translate(0px, -90px);
+}
+
+#h-kakao-photo {
+  width: 100px;
+  transform: translate(55px, -90px);
+}
+
+
+/* 다음 고객센터 */
+.help-daum {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 150px;
+  width: 425px;
+  margin-bottom: 15px;
+}
+
+.help-daum h2 {
+  margin-top: 40px;
+  margin-left: 35px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.help-daum h4 {
+  margin-top: 20px;
+  margin-left: 35px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#h-daum-icon{
+  width: 30px;
+  transform: translate(0px, -90px);
+}
+
+#h-daum-photo {
+  width: 100px;
+  transform: translate(55px, -90px);
+}
+
+/* 커머스 고객센터 */
+
+.help-com {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 150px;
+  width: 425px;
+  margin-bottom: 10px;
+}
+
+.help-com h2 {
+  margin-top: 40px;
+  margin-left: 35px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.help-com h4 {
+  margin-top: 20px;
+  margin-left: 35px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#h-com-icon{
+  width: 30px;
+  transform: translate(0px, -90px);
+}
+
+#h-com-photo {
+  width: 100px;
+  transform: translate(55px, -90px);
+}
+
+/* 구독 */
+.help-section-b{
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 520px;
+  width: 440px;
+}
+
+#kakao-sub{
+  margin-top: 30px;
+  width: 420px;
+  height: 495px;
+  margin-left: 10px;
+}
+
+/* 크루 */
+.help-section-c{
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 530px;
+  width: 440px;
+}
+
+#kakao-crew{
+  margin-top: 30px;
+  width: 420px;
+  height: 495px;
+  margin-left: 0px;
+}
+
+/*  */
+
+.help-bottom{
+  width: 1300px;
+  height: 190px;
+  background-color: white;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  /* padding: 10px; */
+}
+
+.help-bottom ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.help-bottom a{
+  text-decoration: none;
+  color: black;
+}
+
+.help-left {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 200px;
+  width: 640px;
+  margin: 10px;
+}
+
+/* 투자정보 */
+
+.help-left h2 {
+  margin-top: 40px;
+  margin-left: 35px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.help-left h4 {
+  margin-top: 70px;
+  margin-left: 35px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#invest-icon{
+  width: 30px;
+  transform: translate(100px, -80px);
+}
+
+#invest-photo {
+  width: 70px;
+  transform: translate(480px, -110px);
+}
+
+/* 보호 */ 
+
+.help-right{
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 30px;
+  height: 200px;
+  width: 640px;
+  margin-top: 10px;
+}
+
+.help-right h2 {
+  margin-top: 40px;
+  margin-left: 35px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing : -4px;
+}
+
+.help-right h4 {
+  margin-top: 40px;
+  margin-left: 35px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#lock-icon{
+  width: 30px;
+  transform: translate(100px, -85px);
+}
+
+#lock-photo {
+  width: 70px;
+  transform: translate(480px, -120px);
+}
+
 
 footer{
   background-color: aqua;
