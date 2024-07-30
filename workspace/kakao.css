@@ -10,7 +10,7 @@ header{
 }
 
 #header{
-  /* border: 3px solid red; */
+  /* border: 1px solid red; */
   width: 1350px;
   height: 60px;
   margin: 0px auto;
@@ -79,11 +79,6 @@ header{
   transform: translate(-20px);
 }
 
-/* 수정중
-.dropdown.dropdown--story{
-  align-items: center;
-} */
-
 .dropdown--intro{
   width: 180px;
 }
@@ -114,24 +109,14 @@ header{
   display: flex;
   margin-right: auto;
   transform: scale(0.35);
+  cursor: pointer;
 }
 
-/* #icon-search{
-
-}
-
-#icon-lang{
-
-}
-
-#icon-color{
-  
-} */
 
 /* 메인 0번 :  모두의 삶 모두의 기술 시작 */
 main{
   background-color: white;
-  height:7100px;
+  height:5330px;
 }
 
 #main-video{
@@ -1239,11 +1224,11 @@ main{
   margin-left: 0px;
 }
 
-/*  */
+/* 도움 밑 영역 */
 
 .help-bottom{
   width: 1300px;
-  height: 190px;
+  height: 240px;
   background-color: white;
   /* border: 1px solid red; */
   display: flex;
@@ -1337,7 +1322,264 @@ main{
 }
 
 
-footer{
-  background-color: aqua;
-  height: 400px;
+/* 카카오 소식 모아보기 */
+.notice-all{
+  background-color: white;
+  /* border: 1px solid red; */
+  width: 1300px;
+  height: 200px;
+  margin-left: 100px;
 }
+
+.notice-all a{
+  text-decoration: none;
+  color: black;
+}
+
+.n-all-container {
+  background-color: #f3f3f3;
+  border: 0.1px solid #f3f3f3;
+  border-radius: 70px;
+  height: 70px;
+  width: 300px;
+  margin-left: 500px;
+}
+
+.notice-all h2 {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing : -3px;
+}
+
+.notice-all #s-all-icon{
+  width: 30px;
+  transform: translate(235px, -28px);
+}
+
+/* 푸터 */
+footer{
+  background-color: white;
+  /* border: 1px solid red; */
+  height: 520px;
+  width: 1300px;
+  margin-left: 100px;
+}
+
+/* 오늘의 카카오 */
+.f-today h2{
+  letter-spacing: -2px;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.f-today li{
+  list-style-type: none;
+  color: black;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.f-today a{
+  text-decoration: none;
+}
+
+/* 카카오그룹서비스 */
+.f-group-s {
+  margin-left: 250px;
+  margin-top: -200px;
+}
+
+.f-group-s h6{
+  font-size: 17px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.f-group-s li{
+  list-style-type: none;
+  color: gray;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.f-group-s li:hover{
+  color: black;
+}
+
+.f-group-s a{
+  text-decoration: none;
+}
+
+/* 카카오그룹 */
+.f-group {
+  margin-left: 470px;
+  margin-top: -215px;
+}
+
+.f-group h6{
+  font-size: 17px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.f-group li{
+  list-style-type: none;
+  color: gray;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.f-group li:hover{
+  color: black;
+}
+
+.f-group a{
+  text-decoration: none;
+}
+
+/* 카카오픽코마 */
+
+.f-pic {
+  margin-left: 680px;
+  margin-top: -215px;
+}
+
+.f-pic li{
+  list-style-type: none;
+  color: gray;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.f-pic li:hover{
+  color: black;
+}
+
+.f-pic a{
+  text-decoration: none;
+}
+
+/* IR */
+.f-ir {
+  margin-left: 900px;
+  margin-top: -245px;
+}
+
+.f-ir h6{
+  font-size: 17px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.f-ir li{
+  list-style-type: none;
+  color: gray;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.f-ir li:hover{
+  color: black;
+}
+
+.f-ir a{
+  text-decoration: none;
+}
+
+/* 계정및지원 */
+.f-account {
+  margin-left: 1100px;
+  margin-top: -215px;
+}
+
+.f-account h6{
+  font-size: 17px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.f-account li{
+  list-style-type: none;
+  color: gray;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+
+.f-account li:hover{
+  color: black;
+}
+
+.f-account a{
+  text-decoration: none;
+}
+
+/* 이용약관 */
+.agreement {
+  /* border: 1px solid red; */
+  margin-top: 150px;
+  width: 1085px;
+}
+
+.agreement ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.agreement a{
+  color: gray;
+  text-decoration: none;
+}
+
+.agreement li {
+  margin-right: 19px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.agreement li:hover{
+  color: black;
+}
+
+#f-text {
+  color: black;
+}
+
+.agreement h6{
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+
+#site {
+  height: 40px;
+  width: 200px;
+  background-color: #EEEE;
+  border-radius: 25px;
+  margin-left: 1090px;
+  margin-top: -60px;
+}
+
+#site h6{
+  font-size: 11px;
+  font-weight: 400;
+  transform: translate(20px, 12px);
+}
+
+#site a{
+  color: black;
+  text-decoration: none;
+}
+
+#site img {
+  width: 30px;
+  transform: translate(160px, -10px);
+} 
