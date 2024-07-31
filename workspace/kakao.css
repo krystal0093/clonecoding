@@ -181,7 +181,7 @@ main{
 }
 
 .story-content img{
-  width: 400px;
+  width: 380px;
 }
 
 /* 메인 2번 : 더 나은 세상을 만드는 카카오 서비스 시작 */
@@ -644,11 +644,10 @@ main{
   letter-spacing: -2px;
 }
 
-#news-dot{
-  /* border: 1px solid red; */
-  width: 30px;
-  margin-left: 370px;
-  margin-top: -50px;
+#n-dot{
+  width: 32px;
+  margin-left: 365px;
+  margin-top: -100px;
   margin-bottom: 10px;
   cursor: pointer;
 }
